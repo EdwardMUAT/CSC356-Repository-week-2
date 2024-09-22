@@ -1,0 +1,57 @@
+body {
+    background-color: #f7f2e7; /* Soft background color */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0 20px; /* Add padding for better layout */
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    color: #2b6e8c; /* Calming color for the header */
+    font-size: 2.5em; /* Increase header size */
+}
+
+.main {
+    max-width: 800px; /* Set max width for main content */
+    margin: 0 auto; /* Center main content */
+}
+
+.header-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 30%;
+    height: auto;
+    border: 3px solid #2b6e8c; /* Add border around the image */
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+p {
+    line-height: 1.6; /* Improved readability */
+    font-size: 1.1em; /* Slightly larger font size */
+    color: #333; /* Darker text color for contrast */
+    margin-bottom: 20px; /* Space between paragraphs */
+}
+
+footer {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #2b6e8c; /* Footer background color */
+    color: white; /* Footer text color */
+    border-radius: 10px; /* Rounded corners for footer */
+}
+
+footer a {
+    color: #f7f2e7; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 0 10px; /* Spacing between links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
